@@ -1,0 +1,28 @@
+# پایگاه داده SQLite
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+!database/.gitkeep
+
+# فایل‌های لاگ
+*.log
+logs/
+
+# فایل‌های پایتون
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# فایل‌های تنظیمات محلی
+.env
+config.local.py
+*.local
